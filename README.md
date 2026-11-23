@@ -1,26 +1,29 @@
 # Studio Portra — mises à jour
 
-Espace public de publication du logiciel Studio Portra.
+Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du logiciel et les manifestes de publication, sans photos ni données utilisateur.
 
-## Publication
+## Version 5.3.0
 
-GitHub Pages publie automatiquement la branche `main`.
+- Photos Canon : lecture du dossier EOS Utility et de ses sous-dossiers datés.
+- Sélection de plusieurs photos pour chaque essai, sans remplacement automatique à chaque prise de vue.
+- Copie locale des photos sélectionnées pour conserver les associations aux essais.
+- Un seul schéma, avec le titre « Schéma d’éclairage » et ajout des sources dans le menu de droite.
+- Lanterne chinoise de 85 cm directement accessible dans ce menu.
 
-- [Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
-- [Paquet 5.2.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.2.0.zip)
+## Publication et vérification
 
-## Vérifications de la version 5.2.0
+GitHub Pages déploie automatiquement la branche `main`.
 
-Le paquet contient uniquement quatre fichiers du logiciel et son manifeste `version.json`. Aucun dossier de photos, essai, réglage personnel ou donnée utilisateur n’est inclus.
+[Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
 
-Contrôles réalisés : empreintes SHA-256 des fichiers, installation dans une copie isolée, sauvegarde de la version précédente, conservation de données fictives et rejet des paquets altérés ou contenant un fichier photo supplémentaire.
+[Paquet 5.3.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.3.0.zip)
 
-SHA-256 du ZIP : `c5f7ae5c5f3e4a9f9b76b16d50fe057f2e11a83f8263663bf6ee344343767156`
+Les paquets contiennent exclusivement les fichiers autorisés du logiciel et `version.json`. Le manifeste HTTPS fournit le SHA-256 du ZIP ; l’application contrôle également les empreintes de chaque fichier avant installation et conserve une sauvegarde de la version précédente. Ces empreintes vérifient l’intégrité, sans constituer une signature indépendante de l’éditeur.
 
-Ces empreintes contrôlent l’intégrité ; elles ne constituent pas une signature indépendante de l’éditeur.
+Tests effectués : sélection multiple, migration des anciennes photos, absence de doublons, indépendance des essais, ajout de la lanterne, sous-dossiers Canon, copie et conservation locales des sélections, refus des chemins extérieurs au dossier, attente des fichiers en cours de transfert et validation du paquet.
 
-## État et limites
+## Futures versions
 
-L’hébergement des fichiers ne signifie pas que l’installation automatique sur Mac est opérationnelle. La connexion de l’application au manifeste et le test complet dans l’application native restent à réaliser. La version 5.2.1 mentionnée dans une conversation antérieure n’est pas publiée ici.
+Chaque modification doit être développée et testée avant publication. Publier ensemble le nouveau ZIP vérifié et son `latest.json` déclenche le déploiement web. Le logiciel doit être configuré avec l’adresse du manifeste et l’option automatique activée pour récupérer les versions. La génération automatique des versions depuis les sources n’est pas configurée.
 
-Pour chaque future version : tester le logiciel, contrôler l’absence de données personnelles, valider le ZIP avec `release_manager.validate_bundle`, calculer son SHA-256 puis publier le paquet et `latest.json` ensemble. GitHub Pages assure ensuite le déploiement web. Aucun processus de génération automatique des nouvelles versions depuis les sources n’est encore configuré.
+Les photos restent sur le Mac. Aucun dossier personnel, secret ou donnée d’essai ne doit être ajouté à ce dépôt.

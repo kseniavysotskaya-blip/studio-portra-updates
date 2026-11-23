@@ -1,7 +1,7 @@
 {
   "app": "studio-portra",
-  "version": "5.2.0",
-  "downloadUrl": "https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.2.0.zip",
-  "sha256": "c5f7ae5c5f3e4a9f9b76b16d50fe057f2e11a83f8263663bf6ee344343767156",
-  "notes": "Version 5.2.0 : rotation et drap de diffusion. Integrite et installation testees dans une copie isolee ; validation native macOS restant a effectuer."
+  "version": "5.3.0",
+  "downloadUrl": "https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.3.0.zip",
+  "sha256": "97b873993af18b7d82ba87a211a95ac1bffc0dbb04117bd9808991a7ef20701c",
+  "notes": "Connexion Canon, sélection de plusieurs photos par essai, schéma simplifié et lanterne accessible à droite."
 }
