@@ -2,7 +2,9 @@
 
 Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du logiciel et les manifestes de publication, sans photos ni données utilisateur.
 
-## Version 5.3.1
+## Version 5.3.2
+
+- Le nom et les commandes apparaissent uniquement sur la source sélectionnée. Un clic dans le vide du schéma désélectionne les éléments.
 
 - Suppression de la source ou du drap sélectionné avec Retour arrière ou Suppr, sans toucher aux champs de texte ni aux autres objets.
 
@@ -18,7 +20,7 @@ GitHub Pages déploie automatiquement la branche `main`.
 
 [Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
 
-[Paquet 5.3.1](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.3.1.zip)
+[Paquet 5.3.2](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.3.2.zip)
 
 Les paquets contiennent exclusivement les fichiers autorisés du logiciel et `version.json`. Le manifeste HTTPS fournit le SHA-256 du ZIP ; l’application contrôle également les empreintes de chaque fichier avant installation et conserve une sauvegarde de la version précédente. Ces empreintes vérifient l’intégrité, sans constituer une signature indépendante de l’éditeur.
 
