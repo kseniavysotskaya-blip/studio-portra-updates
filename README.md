@@ -2,7 +2,9 @@
 
 Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du logiciel et les manifestes de publication, sans photos ni données utilisateur.
 
-## Version 5.7.0
+## Version 5.8.0
+
+- Couleur et dimensions du fond visibles uniquement au clic. Nom du sujet visible uniquement à la sélection.
 
 - Listes d’objectifs séparées Canon et Pentax, ajout personnalisé et conservation des objectifs déjà saisis. Canon RF 28–70 mm F 2,8 inclus.
 
@@ -30,7 +32,7 @@ GitHub Pages déploie automatiquement la branche `main`.
 
 [Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
 
-[Paquet 5.7.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.7.0.zip)
+[Paquet 5.8.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.8.0.zip)
 
 Les paquets contiennent exclusivement les fichiers autorisés du logiciel et `version.json`. Le manifeste HTTPS fournit le SHA-256 du ZIP ; l’application contrôle également les empreintes de chaque fichier avant installation et conserve une sauvegarde de la version précédente. Ces empreintes vérifient l’intégrité, sans constituer une signature indépendante de l’éditeur.
 
