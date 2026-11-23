@@ -2,7 +2,9 @@
 
 Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du logiciel et les manifestes de publication, sans photos ni données utilisateur.
 
-## Version 5.11.0
+## Version 5.12.0
+
+- Association automatique des nouvelles captures au schéma ouvert, avec pause et exclusion des anciennes photos.
 
 - Plusieurs photos par schéma, choix de la photo du récapitulatif et indication des captures déjà associées.
 - RAW CR3 : aperçus JPEG locaux, conservation et vérification SHA-256 des originaux associés aux schémas.
@@ -40,7 +42,7 @@ GitHub Pages déploie automatiquement la branche `main`.
 
 [Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
 
-[Paquet 5.11.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.11.0.zip)
+[Paquet 5.12.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.12.0.zip)
 
 Les paquets contiennent exclusivement les fichiers autorisés du logiciel et `version.json`. Le manifeste HTTPS fournit le SHA-256 du ZIP ; l’application contrôle également les empreintes de chaque fichier avant installation et conserve une sauvegarde de la version précédente. Ces empreintes vérifient l’intégrité, sans constituer une signature indépendante de l’éditeur.
 
