@@ -2,7 +2,12 @@
 
 Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du logiciel et les manifestes de publication, sans photos ni données utilisateur.
 
-## Version 5.12.0
+## Version 5.13.0
+
+- Toute la carte ouvre le schéma, sauf le nom et les actions dupliquer/supprimer.
+- Connexion Canon repliable et mise à la Corbeille des captures avec confirmation.
+- Matériel disponible distinct des éclairages du schéma, ajout direct au clic et catalogue personnalisable.
+- Export et restauration des schémas déplacés dans les réglages, avec explication de leur portée.
 
 - Association automatique des nouvelles captures au schéma ouvert, avec pause et exclusion des anciennes photos.
 
@@ -10,7 +15,7 @@ Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du l
 - RAW CR3 : aperçus JPEG locaux, conservation et vérification SHA-256 des originaux associés aux schémas.
 - Instantané des réglages et du plan au moment de l’ajout ; accès au RAW dans Finder.
 
-- Cartes épurées : champ de nom compact et icônes discrètes pour dupliquer ou supprimer ; ouverture par les miniatures.
+- Cartes épurées : champ de nom compact et icônes discrètes pour dupliquer ou supprimer ; ouverture par toute la carte.
 
 - Suppression des schémas avec confirmation intégrée, et actions Dupliquer / Supprimer sur le récapitulatif du test.
 
@@ -42,7 +47,7 @@ GitHub Pages déploie automatiquement la branche `main`.
 
 [Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
 
-[Paquet 5.12.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.12.0.zip)
+[Paquet 5.13.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.13.0.zip)
 
 Les paquets contiennent exclusivement les fichiers autorisés du logiciel et `version.json`. Le manifeste HTTPS fournit le SHA-256 du ZIP ; l’application contrôle également les empreintes de chaque fichier avant installation et conserve une sauvegarde de la version précédente. Ces empreintes vérifient l’intégrité, sans constituer une signature indépendante de l’éditeur.
 
