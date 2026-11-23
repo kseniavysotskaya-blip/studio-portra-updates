@@ -2,7 +2,10 @@
 
 Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du logiciel et les manifestes de publication, sans photos ni données utilisateur.
 
-## Version 5.3.2
+## Version 5.4.0
+
+- Mes tests : dossiers nommés, page générale avec miniature de chaque schéma et sa photo numérique.
+- Schémas nommés, création et déplacement entre dossiers. Les schémas existants sont conservés dans Tests existants.
 
 - Le nom et les commandes apparaissent uniquement sur la source sélectionnée. Un clic dans le vide du schéma désélectionne les éléments.
 
@@ -20,7 +23,7 @@ GitHub Pages déploie automatiquement la branche `main`.
 
 [Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
 
-[Paquet 5.3.2](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.3.2.zip)
+[Paquet 5.4.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.4.0.zip)
 
 Les paquets contiennent exclusivement les fichiers autorisés du logiciel et `version.json`. Le manifeste HTTPS fournit le SHA-256 du ZIP ; l’application contrôle également les empreintes de chaque fichier avant installation et conserve une sauvegarde de la version précédente. Ces empreintes vérifient l’intégrité, sans constituer une signature indépendante de l’éditeur.
 
