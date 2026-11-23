@@ -2,7 +2,9 @@
 
 Mises à jour de Studio Portra. Ce dépôt contient uniquement les fichiers du logiciel et les manifestes de publication, sans photos ni données utilisateur.
 
-## Version 5.14.0
+## Version 5.15.0
+
+- Notes propres à chaque dossier de tests, accessibles par une icône discrète.
 
 - Bouton pour ouvrir le dossier EOS Utility dans Finder.
 - Triangle de dépliage Canon agrandi et centré sur le titre.
@@ -50,7 +52,7 @@ GitHub Pages déploie automatiquement la branche `main`.
 
 [Manifeste de mise à jour](https://kseniavysotskaya-blip.github.io/studio-portra-updates/latest.json)
 
-[Paquet 5.14.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.14.0.zip)
+[Paquet 5.15.0](https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.15.0.zip)
 
 Les paquets contiennent exclusivement les fichiers autorisés du logiciel et `version.json`. Le manifeste HTTPS fournit le SHA-256 du ZIP ; l’application contrôle également les empreintes de chaque fichier avant installation et conserve une sauvegarde de la version précédente. Ces empreintes vérifient l’intégrité, sans constituer une signature indépendante de l’éditeur.
 
