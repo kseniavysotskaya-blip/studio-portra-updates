@@ -1,7 +1,7 @@
 {
   "app": "studio-portra",
-  "version": "5.6.0",
-  "downloadUrl": "https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.6.0.zip",
-  "sha256": "33406e52bc7c4ff3e07a0022dc1d644cf9f779321249f96d80ef22b6a29d0ac6",
+  "version": "5.7.0",
+  "downloadUrl": "https://kseniavysotskaya-blip.github.io/studio-portra-updates/Studio-Portra-5.7.0.zip",
+  "sha256": "2434300a3a71c675b74946def86f6d7e5edc58266edd36daa244d9a298abea0a",
   "notes": "Connexion Canon, sélection de plusieurs photos par essai, schéma simplifié et lanterne accessible à droite."
 }
